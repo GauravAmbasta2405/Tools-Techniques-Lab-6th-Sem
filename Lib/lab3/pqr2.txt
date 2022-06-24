@@ -1,0 +1,13 @@
+with open('lab3.15.py','r') as firstfile, open('pqr2.txt','a') as secondfile:
+    for line in firstfile:
+        secondfile.write(line)
+
+file1 = open('pqr.txt','r')
+print(file1.read())
+file1.close()with open('lab3.15.py','r') as firstfile, open('pqr2.txt','a') as secondfile:
+    for line in firstfile:
+        secondfile.write(line)
+
+file1 = open('pqr2.txt','r')
+print(file1.read())
+file1.close()
